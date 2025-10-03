@@ -20,7 +20,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn clean'
+				bat 'mvn clean'
 			}
 		}
 		
@@ -28,7 +28,7 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn test'
+				bat 'mvn test'
 			}
 		}
 				
@@ -36,15 +36,9 @@ pipeline
 		{
 			steps
 			{
-				sh 'mvn install'
+				bat 'mvn install'
 			}
-		}
-		stage('Build Success')
-		{
-			steps
-			{
-				echo 'Build successful'
-			}
+		
 		}
 		
 	}
