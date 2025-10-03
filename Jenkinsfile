@@ -43,7 +43,10 @@ pipeline
 		
 		stage("Build Succees")
 		{
+			steps
+			{
 			echo "Build Successful"
+			}
 		}
 	}
 }	
