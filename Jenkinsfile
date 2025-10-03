@@ -41,5 +41,9 @@ pipeline
 		
 		}
 		
+		stage("Build Succees")
+		{
+			echo "Build Successful"
+		}
 	}
 }	
