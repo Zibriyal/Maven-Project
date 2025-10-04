@@ -15,6 +15,7 @@ public class MyCalc {
 	}
 	public int div (int a , int b)
 	{
+		
 		return a/b;
 	}
 	public static void main (String[] args) {
